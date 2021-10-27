@@ -1,7 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap');
 
+body {
+  background-image: url(../images/texture.jpeg);
+}
+
+footer {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  padding: 10px 0;
+  color: #000000;
+  text-decoration: none;
+}
+
+li, .fb {
+  flex: auto;
+  font-size: 50px;
+  color: #000000;
+  text-align: center;
+  margin: 0 5px;
+  padding: 5px 0;
+  list-style-type: none;
+}
+
+li:hover, a:hover {
+  color: darkslategrey;
+}
+
 h1 {
     font-family: 'Montserrat';
+    letter-spacing: 2px;
     display: flex;
     height: 10vh;
     width: 10vw;
@@ -31,15 +61,18 @@ p {
 }
 
 .containercard {
-  height: 100vh;
-  width: 100vw;
-  max-height: 800px;
-  max-width: 1280px;
-  min-height: 500px;
-  min-width: 1000px;
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    max-height: 100px;
+    max-width: 180px;
+    min-height: 500px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
 }
 
 .border {
@@ -114,9 +147,6 @@ p {
   filter: grayscale(100%);
 }
 
-html {
-  background-color: whitesmoke;
-}
 .pink:hover {
     background: url('https://cdn.europosters.eu/image/750/posters/pink-floyd-wish-you-were-here-i10124.jpg') left center no-repeat;
     background-size: 500px;
@@ -187,12 +217,50 @@ html {
       opacity: 1;
     }
 
+.friends {
+  background: url(../images/Friends.png) center center no-repeat;
+  background-size: 400px;
+  filter: grayscale(100%);
+}
+
+.friends:hover {
+    background: url(../images/Friends.png) left center no-repeat;
+    background-size: 500px;
+    background-position: top;
+    filter: grayscale(0%);}
+
+    h2:hover {
+      opacity: 1;
+    }
+
+.salerno {
+  background: url(../images/towns-amalfi-italy-salerno-wallpaper-preview.jpeg) center center no-repeat;
+  background-size: 600px;
+  filter: grayscale(100%);
+}
+
+.salerno:hover {
+    background: url(../images/towns-amalfi-italy-salerno-wallpaper-preview.jpeg) left center no-repeat;
+    background-size: 700px;
+    background-position: center;
+    filter: grayscale(0%);}
+
+    h2:hover {
+      opacity: 1;
+      text-decoration: none;
+      color: orange;
+    }
+
 h2 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: white;
   margin: 20px;
   opacity: 0;
   transition: opacity 1s;
+}
+
+a {
+  text-decoration: none;
 }
 
 .fa {
