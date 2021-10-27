@@ -53,6 +53,7 @@ p {
 
 .fab:hover {
   opacity: 1;
+  font-size: 50px;
 }
 
 .list-inline > li {
