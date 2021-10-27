@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap');
+
+h1 {
+    font-family: 'Montserrat';
+    display: flex;
+    height: 10vh;
+    width: 10vw;
+    max-height: 80px;
+    max-width: 1280px;
+    min-height: 100px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Montserrat';
+    display: flex;
+    height: 20vh;
+    width: 10vw;
+    max-height: 80px;
+    max-width: 1280px;
+    min-height: 150px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin: 0 auto;
+}
+
+.containercard {
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 500px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+
+.container {
+    height: 50vh;
+    width: 100vw;
+    /* max-height: 800px; */
+    max-width: 1280px;
+    min-height: 300px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.peppecard {
+  height: 379px;
+  width: 800px;
+  background: grey;
+  border-radius: 10px;
+  transition: 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  height: 379px;
+  width: 300px;
+  background: grey;
+  border-radius: 10px;
+  transition: 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.peppe {
+  background: url(../images/iceland2019.jpeg) center center no-repeat;
+  background-size: 870px;
+  filter: grayscale(100%);
+  align-items: center;
+}
+
+.peppe:hover {
+    background: url(../images/iceland2019.jpeg) left center no-repeat;
+    background-size: 2500px;
+    background-position: bottom;
+    filter: grayscale(0%);
+}
+
+.pink {
+  background: url('https://cdn.europosters.eu/image/750/posters/pink-floyd-wish-you-were-here-i10124.jpg') center center no-repeat;
+  background-size: 350px;
+  filter: grayscale(100%);
+}
+
+html {
+  background-color: whitesmoke;
+}
+.pink:hover {
+    background: url('https://cdn.europosters.eu/image/750/posters/pink-floyd-wish-you-were-here-i10124.jpg') left center no-repeat;
+    background-size: 500px;
+    background-position: center;
+    filter: grayscale(0%);
+}
+
+    h2 {
+      opacity: 1;
+    }
+
+    .fa {
+      opacity: 1;
+    }
+
+
+.iceland {
+  background: url('https://touristjourney.com/wp-content/uploads/2021/09/shutterstock_675590356-1536x1086.jpg') center center no-repeat;
+  background-size: 550px;
+  filter: grayscale(100%);
+}
+
+.iceland:hover {
+    background: url('https://touristjourney.com/wp-content/uploads/2021/09/shutterstock_675590356-1536x1086.jpg') left center no-repeat;
+    background-size: 800px;
+    background-position: center;
+    filter: grayscale(0%);
+}
+
+    h2 {
+      opacity: 1;
+    }
+
+    .fa {
+      opacity: 1;
+    }
+
+.milito {
+  background: url('https://www.dreamteamfc.com/c/wp-content/uploads/sites/4/2018/09/NINTCHDBPICT000004749929.jpg?strip=all&w=960&quality=100') center center no-repeat;
+  background-size: 600px;
+  filter: grayscale(100%);
+}
+
+.milito:hover {
+    background: url('https://www.dreamteamfc.com/c/wp-content/uploads/sites/4/2018/09/NINTCHDBPICT000004749929.jpg?strip=all&w=960&quality=100') left center no-repeat;
+    background-size: 800px;
+    background-position: top;
+    filter: grayscale(0%);
+}
+
+    h2:hover {
+      opacity: 1;
+    }
+
+.lewagon {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/1/1c/Dev-utp.jpg') center center no-repeat;
+  background-size: 650px;
+  filter: grayscale(100%);
+}
+
+.lewagon:hover {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/1/1c/Dev-utp.jpg') left center no-repeat;
+    background-size: 1100px;
+    background-position: center;
+    filter: grayscale(0%);}
+
+    h2:hover {
+      opacity: 1;
+    }
+
+h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.fa {
+  opacity: 1;
+}
+
+.fa:hover {
+  opacity: 1;
+  color: yellow;
+}
+
+.icons {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
